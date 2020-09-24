@@ -1,0 +1,242 @@
+@media only screen and (max-width: 767px){
+    #cont{
+        grid-template-rows: 15vh 30vh 40vh 15vh ;
+        grid-template-columns: 1fr ;
+        grid-area: "head"
+                    "section"
+                    "main"
+                    "footer";
+        gap: 10px;
+ 
+                }
+
+    body{
+        text-align: center;
+        background-color: rgb(255, 230, 255);
+        border: grey; 
+            } 
+    
+            #head{
+                grid-area: head;
+                background: cornflowerblue;
+            }
+            #h{
+                text-align: center;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            #section{ 
+                background-color: orange;
+                grid-area: section;
+            }
+            #nour{
+                border: rgb(6, 207, 207);
+                width: 65%;
+
+            }
+            #main { 
+                grid-area: main;
+                background-color: pink;
+            }
+            .p{
+            font-size:25px;
+            font-style: oblique;
+            text-align: center;
+            
+            }
+            .p2{
+            font-size: 20px;
+            text-align: left;
+            font-style: oblique;
+            }
+            #footer{
+                background-color: rgb(6, 207, 207);
+                height:10vh ;
+                grid-area: footer;
+            }
+            .facebook{
+             height: 30px;
+             width: 30px;
+             margin: 4px;
+            }
+            .twitter{
+             height: 30px;
+             width: 30px;
+             margin: 4px;
+
+            }
+            .insta{
+             height: 30px;
+             width: 30px;
+             margin: 4px;
+
+            }
+            .linked{
+             height: 30px;
+             width: 30px;
+             margin: 4px;
+             margin-top: 3vh ;
+            }
+        }
+@media only screen and (min-width:768px){
+    #cont{
+        grid-template-rows: 15vh 30vh 40vh 15vh ;
+        grid-template-columns: 1fr ;
+        grid-area: "head"
+                    "section"
+                    "main"
+                    "footer";
+        gap: 10px;
+ 
+                }
+
+    body{
+        text-align: center;
+        background-color: rgb(255, 230, 255);
+        border: grey; 
+            } 
+    
+            #head{
+                grid-area: head;
+                background: cornflowerblue;
+            }
+            #h{
+                text-align: center;
+                font-size: 40px;
+                font-weight: bold;
+            }
+            #section{ 
+                background-color: orange;
+                grid-area: section;
+            }
+            #nour{
+                border: rgb(6, 207, 207);
+                width: 50%;
+
+            }
+            #main { 
+                grid-area: main;
+                background-color: pink;
+            }
+            .p{
+            font-size:30px;
+            font-style: oblique;
+            text-align: center;
+            
+            }
+            .p2{
+            font-size: 25px;
+            text-align: left;
+            font-style: oblique;
+            }
+            #footer{
+                background-color: rgb(6, 207, 207);
+                height:10vh ;
+                grid-area: footer;
+            }
+            .facebook{
+             height: 40px;
+             width: 40px;
+             margin: 4px;
+            }
+            .twitter{
+             height: 40px;
+             width: 40px;
+             margin: 4px;
+
+            }
+            .insta{
+             height: 40px;
+             width: 40px;
+             margin: 4px;
+
+            }
+            .linked{
+             height: 40px;
+             width: 40px;
+             margin: 4px;
+             margin-top:2.5vh ;
+            }
+        }
+
+@media only screen and (min-width: 1000px) {
+    #cont{
+        grid-template-rows: 15vh 30vh 40vh 15vh ;
+        grid-template-columns: 1fr ;
+        grid-area: "head"
+                    "section"
+                    "main"
+                    "footer";
+        gap: 10px;
+ 
+                }
+
+    body{
+        text-align: center;
+        background-color: rgb(255, 230, 255);
+        border: grey; 
+            } 
+    
+            #head{
+                grid-area: head;
+                background: cornflowerblue;
+            }
+            #h{
+                text-align: center;
+                font-size: 60px;
+                font-weight: bold;
+            }
+            #section{ 
+                background-color: rgb(255, 166, 0);
+                grid-area: section;
+            }
+            #nour{
+                border: rgb(6, 207, 207);
+                width: 45%;
+
+            }
+            #main { 
+                grid-area: main;
+                background-color: pink;
+            }
+            .p{
+            font-size:30px;
+            font-style: oblique;
+            text-align: center;
+            
+            }
+            .p2{
+            font-size: 25px;
+            text-align: left;
+            font-style: oblique;
+            }
+            #footer{
+                background-color: rgb(6, 207, 207);
+                height:10vh ;
+                grid-area: footer;
+            }
+            .facebook{
+             height: 50px;
+             width: 50px;
+             margin: 4px;
+            }
+            .twitter{
+             height: 50px;
+             width: 50px;
+             margin: 4px;
+
+            }
+            .insta{
+             height: 50px;
+             width: 50px;
+             margin: 4px;
+
+            }
+            .linked{
+             height: 50px;
+             width: 50px;
+             margin: 4px;
+             margin-top:15px ;
+            }
+        }
+  
